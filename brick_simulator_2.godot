@@ -1,0 +1,24 @@
+config_version=3
+config_version=null
+
+[application]
+
+name="brick_simulator_2"
+main_scene="res://MAIN.tscn"
+icon="res://icon.png"
+
+[input]
+
+move_forward=[ InputEvent(KEY,87) ]
+move_backwards=[ InputEvent(KEY,83) ]
+move_left=[ InputEvent(KEY,65) ]
+move_right=[ InputEvent(KEY,68) ]
+
+[memory]
+
+multithread/thread_rid_pool_prealloc=60
+
+[rendering]
+
+threads/thread_model=2
+quality/msaa=2
